@@ -9,6 +9,8 @@ import { NavBarComponent } from './pages/home/fragments/nav-bar/nav-bar.componen
 import { FooterComponent } from './pages/home/fragments/footer/footer.component';
 import { MainComponent } from './pages/home/fragments/main/main.component';
 import { ButtonComponent } from './shared/components/button/button.component';
+import { LogoComponent } from './shared/components/logo/logo.component';
+import { PresentationComponent } from './pages/home/components/presentation/presentation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ButtonComponent } from './shared/components/button/button.component';
     NavBarComponent,
     FooterComponent,
     MainComponent,
-    ButtonComponent
+    ButtonComponent,
+    LogoComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,11 @@
-.btn {
-  background: rgba(67, 17, 106, 1);
-  border-radius: 68px;
-
-
-  background-image: linear-gradient(
+.navbar-brand {
+  background: -webkit-linear-gradient(
     90deg,
     rgba(186, 10, 208, 1) 30%,
     rgba(76, 127, 240, 1) 60%,
     rgba(9, 72, 214, 1) 100%
   );
-
-  background-clip: text;
   -webkit-background-clip: text;
-
   -webkit-text-fill-color: transparent;
-
-  color: black;
+  display: inline-block;
 }
