@@ -11,6 +11,8 @@ import { MainComponent } from './pages/home/fragments/main/main.component';
 import { ButtonComponent } from './shared/components/button/button.component';
 import { LogoComponent } from './shared/components/logo/logo.component';
 import { PresentationComponent } from './pages/home/components/presentation/presentation.component';
+import { PopupComponent } from './pages/home/modal/popup/popup.component';
+import { SocialComponent } from './shared/components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PresentationComponent } from './pages/home/components/presentation/pres
     MainComponent,
     ButtonComponent,
     LogoComponent,
-    PresentationComponent
+    PresentationComponent,
+    PopupComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

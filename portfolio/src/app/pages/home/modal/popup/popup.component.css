@@ -1,0 +1,24 @@
+.button{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  border: 1px;
+  border-radius: 50%;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.desc{
+  color: black;
+}
+
+@media (max-width: 576px){
+  .button{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+

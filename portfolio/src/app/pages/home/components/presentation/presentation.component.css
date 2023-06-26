@@ -27,27 +27,37 @@
   margin-right: 10px;
 }
 
-.icons {
-  display: flex;
-}
-
-.icons a {
-  display: inline-block;
-  margin-right: 26px;
-  color: #007BFF;
-  font-size: 23px;
-  transition: all 0.4s ease-in-out;
-
-}
-
-.icons a:hover{
-  animation-timing-function: ease-in;
-  transform: translateY(-15px);
-}
-
 .small-right-text {
   color: #333333;
   font-size: 16px;
   text-align: right;
   margin-left: 60px;
+}
+
+.mobile{
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .main-text {
+    font-size: 50px;
+  }
+
+  .small-text, .small-right-text{
+    margin-bottom: 10px;
+  }
+
+  .desktop{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile{
+    display: block;
+  }
+
+  .small-right-text{
+    margin-left: 0;
+  }
+
 }

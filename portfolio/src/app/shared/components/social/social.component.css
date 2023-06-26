@@ -1,0 +1,17 @@
+.icons {
+  display: flex;
+}
+
+.icons a {
+  display: inline-block;
+  margin-right: 26px;
+  color: #007BFF;
+  font-size: 23px;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.icons a:hover{
+  animation-timing-function: ease-in;
+  transform: translateY(-15px);
+}
